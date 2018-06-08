@@ -1,0 +1,159 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorControlActivated">@color/colorAccent</item> <!--Selector-->
+    </style>
+
+
+    <style name="loginTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorAccent">@color/fontColorSecondary</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:editTextColor">@color/fontColorPrimary</item>
+        <item name="android:textColorHint">@color/fontColorLightGray</item>
+        <item name="android:colorActivatedHighlight">@color/colorPrimary</item>
+        <item name="android:colorControlNormal">@color/fontColorSecondary</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="DialogTheme" parent="android:Theme.DeviceDefault.Light.Dialog.Alert" tools:ignore="NewApi">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorAccent">@color/colorPrimary</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="progress_dialog_text_style" parent="android:Theme.Holo.Light.Dialog">
+        <item name="fontType">Regular</item>
+        <item name="android:progressBarStyle">
+            @android:style/Widget.DeviceDefault.Light.ProgressBar
+        </item>
+
+        <item name="android:colorAccent">@color/colorPrimary</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+    <style name="dialog_message_text_style">
+        <item name="fontType">Regular</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="InvitationDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+    <!-- End Title Primary Font Style-->
+
+
+    <style name="EditTextNormal">
+        <item name="fontType">Regular</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:cacheColorHint">@color/fontColorLightGray</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="EditTextNormal_Register">
+        <item name="fontType">Regular</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:cacheColorHint">@color/fontColorLightGray</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+
+    <style name="common_btn_style">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="android:paddingLeft">@dimen/_20sdp</item>
+        <item name="android:paddingRight">@dimen/_20sdp</item>
+        <item name="android:paddingTop">@dimen/_10sdp</item>
+        <item name="android:paddingBottom">@dimen/_10sdp</item>
+    </style>
+
+    <style name="ButtonRegularPrimaryText" parent="@style/common_btn_style">
+        <item name="fontType">Bold</item>
+
+        <item name="android:background">@drawable/login_bg</item>
+    </style>
+
+
+    <style name="ButtonBoldPrimaryText" parent="@style/common_btn_style">
+        <item name="fontType">Bold</item>
+        <item name="android:background">@drawable/login_bg</item>
+
+    </style>
+
+
+    <style name="RegularText" parent="TextAppearance.AppCompat">
+        <item name="fontType">Regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="RegularText.FontPrimaryColor" parent="RegularText">
+        <item name="android:textColor">@color/fontColorPrimary</item>
+    </style>
+
+    <style name="RegularText14.PrimaryTextColor" parent="RegularText.FontPrimaryColor">
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+
+    <style name="MediumText" parent="TextAppearance.AppCompat">
+        <item name="android:includeFontPadding">false</item>
+        <item name="fontType">Medium</item>
+    </style>
+
+    <style name="MediumText.FontWhite" parent="MediumText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MediumTextSize16.WhiteTextColor" parent="MediumText.FontWhite">
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+
+    <style name="MediumText.Black" parent="MediumText">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MediumText.FontPrimaryColor" parent="MediumText">
+        <item name="android:textColor">@color/fontColorPrimary</item>
+    </style>
+
+
+    <style name="RegularText.FontLightGray" parent="RegularText">
+        <item name="android:textColor">@color/fontColorLightGray</item>
+    </style>
+
+
+</resources>

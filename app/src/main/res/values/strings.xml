@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AndroidTest</string>
+
+    <string name="please_wait">Please Wait...</string>
+    <string name="connection_error">Please make a connection and try again.</string>
+    <string name="error_message">Sorry we are unable to reach server at this time</string>
+    <string name="error_message500">The data could not be read because it is not in the correct format</string>
+
+
+    <string name="please_enter_password">Please enter password</string>
+
+    <string name="Login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string name="please_enter_username">Please enter username</string>
+
+</resources>

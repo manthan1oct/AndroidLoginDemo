@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="@dimen/_4sdp">
+
+    <com.icarus.androidtest.customview.CustomTextView
+        android:id="@+id/mMessageText"
+        style="@style/dialog_message_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:text="" />
+
+</LinearLayout>
